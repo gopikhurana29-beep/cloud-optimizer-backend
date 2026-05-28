@@ -11,7 +11,7 @@ app.use(express.json());
 // 🔑 Supabase connection (REPLACE THESE)
 const supabase = createClient(
   "https://ftywpxcqcdhtueqepbos.supabase.co",
-  "sb_publishable_D9lc27eL_yFoWnJq3SF5gA_cIXRIfzJ"
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ0eXdweGNxY2RodHVlcWVwYm9zIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMzOTk4ODAsImV4cCI6MjA4ODk3NTg4MH0.bb3_7Tl33eYDjzNuTNp8cMLQPiHpnPYR6b6heG5tITA"
 );
 
 // 🚀 Health check route (important for Render)
