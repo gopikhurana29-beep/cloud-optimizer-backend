@@ -10,8 +10,8 @@ app.use(express.json());
 
 // 🔑 Supabase connection (REPLACE THESE)
 const supabase = createClient(
-  "YOUR_SUPABASE_URL",
-  "YOUR_SUPABASE_ANON_KEY"
+  "https://ftywpxcqcdhtueqepbos.supabase.co",
+  "sb_publishable_D9lc27eL_yFoWnJq3SF5gA_cIXRIfzJ"
 );
 
 // 🚀 Health check route (important for Render)
